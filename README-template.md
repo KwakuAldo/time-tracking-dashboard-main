@@ -56,12 +56,14 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 - CSS Grid
 - Desktop-first workflow
 - JavaScript
+- JSON
 
 **Note: These are just examples. Delete this note and replace the list above with your own choices**
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+I am using CSS grid for the main layout, and then a little bit of flex for the smaller sections. The first challenge I faced was how to make the elements overlap each other like in the design, I achieved that with z-index and flex-column-reverse. then I had to make sure I got the height and width of the elements all right since I don't have access to the figma/sketch design files. 
+Next I had to figure out how to place the icons to the right side and cut off at the top and the bottom, i was able to do that by positioning them relatively and given them top and left values, and setting the overflow to hidden in the parent element. It took some trial and errors to get a uniformed look for the icons as the sizes of the svg images are different.
 
 To see how you can add code snippets, see below:
 
