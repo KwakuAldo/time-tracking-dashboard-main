@@ -545,10 +545,6 @@ video {
   top: -1rem;
 }
 
-.left-\[6rem\] {
-  left: 6rem;
-}
-
 .z-\[1\] {
   z-index: 1;
 }
@@ -567,6 +563,14 @@ video {
 
 .mt-\[2rem\] {
   margin-top: 2rem;
+}
+
+.mt-\[1rem\] {
+  margin-top: 1rem;
+}
+
+.mt-\[1\.5rem\] {
+  margin-top: 1.5rem;
 }
 
 .flex {
@@ -598,6 +602,10 @@ video {
 }
 
 .h-\[5rem\] {
+  height: 5rem;
+}
+
+.h-20 {
   height: 5rem;
 }
 
