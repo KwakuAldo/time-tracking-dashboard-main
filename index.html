@@ -17,132 +17,134 @@
   </style>
 </head>
 <body class="bg-Very-Dark-Blue text-white">
-  <main class="flex flex-col justify-center items-center h-screen">
+  <main class="flex flex-col justify-center items-center md:h-screen">
 
-  <section class="grid grid-cols-4 grid-rows-2 gap-8 w-[65rem]">
-    <div class="col-span-1 row-span-2 h-full">
-      <div class="relative z-[1] bg-Blue h-[20.4rem] w-[15rem] pl-[2rem] pt-[2rem] rounded-xl">
-        <div class="w-[5rem] border-2 border-white rounded-full">
+  <section class="flex flex-col mt-8 md:grid md:grid-cols-4 md:grid-rows-2 md:gap-8 md:w-[47rem] lg:w-[65rem]">
+    <div class="col-span-1 row-span-2 md:h-full">
+      <div class="flex items-center justify-evenly md:flex-col md:items-start relative z-[1] bg-Blue h-32 w-80 md:h-[20.4rem] md:w-[12rem] lg:w-[15rem] md:pt-8 md:pl-4 lg:pl-[2rem] rounded-xl">
+        <div class="w-16 md:w-[5rem] border-2 border-white rounded-full">
           <img src="images/image-jeremy.png" alt="">
         </div>
-        <div class="mt-[2rem]">
-          <p>Report for</p>
-          <h1 class="text-[2rem] font-light">Jeremy Robson</h1>
+        <div class="relative right-[1.2rem] md:right-[0] md:mt-8 lg:mt-0">
+          <p class="text-[0.875rem] text-Pale-Blue">Report for</p>
+          <h1 class="text-[1.3rem] md:text-[2rem] font-light">Jeremy Robson</h1>
         </div>
       </div>
       
-      <div class="relative bottom-5 flex flex-col bg-Dark-Blue h-[10.5rem] w-[15rem] pl-[2rem] pt-[3rem] space-y-3 rounded-xl">
-        <span><a id="daily" href="#">Daily</a></span>
-        <span><a id="weekly" href="#">Weekly</a></span>
-        <span><a id="monthly" href="#">Monthly</a></span>
+      <div class="relative flex justify-center bottom-5 bg-Dark-Blue h-20 w-80 md:h-[10.5rem] md:w-[15rem] rounded-xl">
+        <div class="flex md:flex-col justify-around items-end md:items-start w-72 h-20 md:h-40 pb-[1.1rem] md:pl-[2rem] md:pt-[3rem] md:space-y-3">
+          <span><a id="daily" href="#" class="text-Desaturated-Blue hover:text-white active:text-white">Daily</a></span>
+          <span><a id="weekly" href="#" class="text-Desaturated-Blue hover:text-white active:text-white">Weekly</a></span>
+          <span><a id="monthly" href="#" class="text-Desaturated-Blue hover:text-white active:text-white">Monthly</a></span>
+        </div>
       </div>
     </div>
     
-    <div class="col-span-1 row-span-1 flex flex-col-reverse justify-end h-[14.188rem]">
-      <div class="relative bottom-[0.99rem] bg-Dark-Blue pl-[2rem] z-[1] h-full w-[15rem] rounded-xl">
-        <div>
-          <div class="flex items-center justify-between w-[11.5rem] pt-4">
+    <div class="col-span-1 row-span-1 flex flex-col-reverse justify-end md:h-[14.188rem]">
+      <div class="relative bottom-[0.99rem] bg-Dark-Blue z-[1] md:h-full md:w-[15rem] rounded-xl">
+        <div class="flex flex-wrap flex-col justify-center md:justify-start mt-2 items-center h-[7rem] md:h-full">
+          <div class="flex items-center justify-between w-[17rem] md:w-[11.5rem] pt-4">
             <p class="title">Work</p>
             <img class="" src="images/icon-ellipsis.svg" alt="">
           </div>
-          <div class="mt-[1.5rem] flex flex-col h-20] justify-between">
-            <h2 class="current text-[2rem] font-light"></h2>
-            <p class="previous"></p>
+          <div class="md:mt-[1.5rem] flex items-center md:items-start w-[17rem] md:w-[11.5rem] md:flex-col md:h-[20] justify-between">
+            <h2 class="current text-[2rem] font-light">5hrs</h2>
+            <p class="previous text-[0.875rem] text-Desaturated-Blue">Yesterday - 7hrs</p>
           </div>
         </div>
       </div>
-      <div class="bg-Light-Red-Work h-[5rem] w-[15rem] rounded-xl overflow-hidden">
-        <img class="relative top-[-0.7rem] left-[9rem] svg-resize" src="images/icon-work.svg" alt="">
+      <div class="bg-Light-Red-Work h-[3.5rem] md:h-[5rem] md:w-[15rem] rounded-xl overflow-hidden">
+        <img class="relative top-[-0.7rem] left-[14rem] md:left-[9rem] svg-resize" src="images/icon-work.svg" alt="">
       </div>
     </div>
     
-    <div class="col-span-1 row-span-1 flex flex-col-reverse justify-end h-[14.188rem]">
-      <div class="relative bottom-[0.99rem] bg-Dark-Blue w-[15rem] pl-[2rem] z-[1] h-full rounded-xl">
-        <div>
-          <div class="flex items-center justify-between w-[11.5rem] pt-4">
+    <div class="col-span-1 row-span-1 flex flex-col-reverse justify-end md:h-[14.188rem]">
+      <div class="relative bottom-[0.99rem] bg-Dark-Blue md:w-[15rem] z-[1] md:h-full rounded-xl">
+        <div class="flex flex-wrap flex-col justify-center md:justify-start mt-2 items-center h-[7rem] md:h-full">
+          <div class="flex items-center justify-between w-[17rem] md:w-[11.5rem] pt-4">
             <p>Play</p>
             <img class="" src="images/icon-ellipsis.svg" alt="">
           </div>
-          <div class="mt-[1.5rem] flex flex-col h-20] justify-between">
-            <h2 class="current"></h2>
-            <p></p>
+          <div class="md:mt-[1.5rem] flex items-center md:items-start w-[17rem] md:w-[11.5rem] md:flex-col md:h-[20] justify-between"">
+            <h2 class="current text-[2rem] font-light">1hr</h2>
+            <p class="previous text-[0.875rem] text-Desaturated-Blue">Yesterday - 2hrs</p>
           </div>
         </div>
       </div>
-      <div class="bg-Soft-Blue-Play w-[15rem] rounded-xl overflow-hidden">
-        <img class="relative top-[-0.7rem] left-[9rem] svg-resize" src="images/icon-play.svg" alt="">
+      <div class="bg-Soft-Blue-Play h-[3.5rem] md:h-[5rem] md:w-[15rem] rounded-xl overflow-hidden">
+        <img class="relative top-[-0.7rem] left-[14rem] md:left-[9rem] svg-resize" src="images/icon-play.svg" alt="">
       </div>
     </div>
     
-    <div class="col-span-1 row-span-1 flex flex-col-reverse justify-end h-[14.188rem]">
-      <div class="relative bottom-[0.99rem] bg-Dark-Blue w-[15rem] pl-[2rem] z-[1] h-full rounded-xl">
-        <div>
-          <div class="flex items-center justify-between w-[11.5rem] pt-4">
+    <div class="col-span-1 row-span-1 flex flex-col-reverse justify-end md:h-[14.188rem]">
+      <div class="relative bottom-[0.99rem] bg-Dark-Blue md:w-[15rem] z-[1] md:h-full rounded-xl">
+        <div class="flex flex-wrap flex-col justify-center md:justify-start mt-2 items-center h-[7rem] md:h-full"">
+          <div class="flex items-center justify-between w-[17rem] md:w-[11.5rem] pt-4">
             <p>Study</p>
             <img class="" src="images/icon-ellipsis.svg" alt="">
           </div>
-          <div class="mt-[1.5rem] flex flex-col h-20] justify-between">
-            <h2 class="current"></h2>
-            <p></p>
+          <div class="md:mt-[1.5rem] flex items-center md:items-start w-[17rem] md:w-[11.5rem] md:flex-col md:h-[20] justify-between"">
+            <h2 class="current text-[2rem] font-light">0hrs</h2>
+            <p class="previous text-[0.875rem] text-Desaturated-Blue">Yesterday - 1hr</p>
           </div>
         </div>
       </div>
-      <div class="bg-Light-Red-Study w-[15rem] rounded-xl overflow-hidden">
-        <img class="relative top-[-0.7rem] left-[9rem] svg-resize" src="images/icon-study.svg" alt="">
+      <div class="bg-Light-Red-Study h-[3.5rem] md:h-[5rem] md:w-[15rem] rounded-xl overflow-hidden">
+        <img class="relative top-[-0.7rem] left-[14rem] md:left-[9rem] svg-resize" src="images/icon-study.svg" alt="">
       </div>
     </div>
     
-    <div class="col-span-1 row-span-1 flex flex-col-reverse justify-end h-[14.188rem]">
-      <div class="relative bottom-[0.99rem] bg-Dark-Blue w-[15rem] pl-[2rem] z-[1] h-full rounded-xl">
-        <div>
-          <div class="flex items-center justify-between w-[11.5rem] pt-4">
+    <div class="col-span-1 row-span-1 flex flex-col-reverse justify-end md:h-[14.188rem]">
+      <div class="relative bottom-[0.99rem] bg-Dark-Blue md:w-[15rem] z-[1] md:h-full rounded-xl">
+        <div class="flex flex-wrap flex-col justify-center md:justify-start mt-2 items-center h-[7rem] md:h-full"">
+          <div class="flex items-center justify-between w-[17rem] md:w-[11.5rem] pt-4">
             <p>Exercise</p>
             <img class="" src="images/icon-ellipsis.svg" alt="">
           </div>
-          <div class="mt-[1.5rem] flex flex-col h-20] justify-between">
-            <h2 class="current"></h2>
-            <p class="previous"></p>
+          <div class="md:mt-[1.5rem] flex items-center md:items-start w-[17rem] md:w-[11.5rem] md:flex-col md:h-[20] justify-between"">
+            <h2 class="current text-[2rem] font-light">1hr</h2>
+            <p class="previous text-[0.875rem] text-Desaturated-Blue">Yesterday - 1hr</p>
           </div>
         </div>
       </div>
-      <div class="bg-Lime-Green-Exercise h-[5rem] w-[15rem] rounded-xl overflow-hidden">
-        <img class="relative top-[-0.1rem] left-[9rem]" src="images/icon-exercise.svg" alt="">
+      <div class="bg-Lime-Green-Exercise h-[3.5rem] md:h-[5rem] md:w-[15rem] rounded-xl overflow-hidden">
+        <img class="relative top-[-0.1rem] left-[14rem] md:left-[9rem]" src="images/icon-exercise.svg" alt="">
       </div>
     </div>
     
-    <div class="col-span-1 row-span-1 flex flex-col-reverse justify-end h-[14.188rem]">
-      <div class="relative bottom-[0.99rem] bg-Dark-Blue w-[15rem] pl-[2rem] z-[1] h-full rounded-xl">
-        <div>
-          <div class="flex items-center justify-between w-[11.5rem] pt-4">
+    <div class="col-span-1 row-span-1 flex flex-col-reverse justify-end md:h-[14.188rem]">
+      <div class="relative bottom-[0.99rem] bg-Dark-Blue md:w-[15rem] z-[1] md:h-full rounded-xl">
+        <div class="flex flex-wrap flex-col justify-center md:justify-start mt-2 items-center h-[7rem] md:h-full"">
+          <div class="flex items-center justify-between w-[17rem] md:w-[11.5rem] pt-4">
             <p>Social</p>
             <img class="" src="images/icon-ellipsis.svg" alt="">
           </div>
-          <div class="mt-[1.5rem] flex flex-col h-20] justify-between">
-            <h2 class="current"></h2>
-            <p class="previous"></p>
+          <div class="md:mt-[1.5rem] flex items-center md:items-start w-[17rem] md:w-[11.5rem] md:flex-col md:h-[20] justify-between"">
+            <h2 class="current text-[2rem] font-light">1hr</h2>
+            <p class="previous text-[0.875rem] text-Desaturated-Blue">Yesterday - 3hrs</p>
           </div>
         </div>
       </div>
-      <div class="bg-Violet-Social w-[15rem] rounded-xl overflow-hidden">
-        <img class="relative top-[-0.2rem] left-[9rem] svg-resize" src="images/icon-social.svg" alt="">
+      <div class="bg-Violet-Social h-[3.5rem] md:h-[5rem] md:w-[15rem] rounded-xl overflow-hidden">
+        <img class="relative top-[-0.2rem] left-[14rem] md:left-[9rem] svg-resize" src="images/icon-social.svg" alt="">
       </div>
     </div>
     
-    <div class="col-span-1 row-span-1 flex flex-col-reverse justify-end h-[14.188rem]">
-      <div class="relative bottom-[0.99rem] bg-Dark-Blue w-[15rem] pl-[2rem] z-[1] h-full rounded-xl">
-        <div>
-          <div class="flex items-center justify-between w-[11.5rem] pt-4">
+    <div class="col-span-1 row-span-1 flex flex-col-reverse justify-end md:h-[14.188rem]">
+      <div class="relative bottom-[0.99rem] bg-Dark-Blue md:w-[15rem] z-[1] md:h-full rounded-xl">
+        <div class="flex flex-wrap flex-col justify-center md:justify-start mt-2 items-center h-[7rem] md:h-full"">
+          <div class="flex items-center justify-between w-[17rem] md:w-[11.5rem] pt-4">
             <p>Self Care</p>
             <img class="" src="images/icon-ellipsis.svg" alt="">
           </div>
-          <div class="mt-[1.5rem] flex flex-col h-20] justify-between">
-            <h2 class="current"></h2>
-            <p class="previous"></p>
+          <div class="md:mt-[1.5rem] flex items-center md:items-start w-[17rem] md:w-[11.5rem] md:flex-col md:h-[20] justify-between"">
+            <h2 class="current text-[2rem] font-light">0hrs</h2>
+            <p class="previous text-[0.875rem] text-Desaturated-Blue">Yesterday - 1hr</p>
           </div>
         </div>
       </div>
-      <div class="bg-Soft-orange-SelfCare w-[15rem] rounded-xl overflow-hidden">
-        <img class="relative top-[-1rem] left-[9rem] svg-resize" src="images/icon-self-care.svg" alt="">
+      <div class="bg-Soft-orange-SelfCare h-[3.5rem] md:h-[5rem] md:w-[15rem] rounded-xl overflow-hidden">
+        <img class="relative top-[-1rem] left-[14rem] md:left-[9rem] svg-resize" src="images/icon-self-care.svg" alt="">
       </div>
     </div>
   </section>
