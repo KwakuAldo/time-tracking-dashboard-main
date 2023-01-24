@@ -64,6 +64,8 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 I am using CSS grid for the main layout, and then a little bit of flex for the smaller sections. The first challenge I faced was how to make the elements overlap each other like in the design, I achieved that with z-index and flex-column-reverse. then I had to make sure I got the height and width of the elements all right since I don't have access to the figma/sketch design files. 
 Next I had to figure out how to place the icons to the right side and cut off at the top and the bottom, i was able to do that by positioning them relatively and given them top and left values, and setting the overflow to hidden in the parent element. It took some trial and errors to get a uniformed look for the icons as the sizes of the svg images are different.
+Mostly the layout for this was not hard to code. Only thing I regret is not going with a mobile-first approach, I struggled to build the mobile layout from the desktop design, I think I will be going with mobile-first approach on my next project.
+My next challenge is how to get the data for the relevant time frames from the JSON file and then parse them into the respective element in the HTML.
 
 To see how you can add code snippets, see below:
 
