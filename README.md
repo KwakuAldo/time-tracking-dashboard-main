@@ -1,6 +1,6 @@
 # Frontend Mentor - Time tracking dashboard solution
 
-This is a solution to the [Time tracking dashboard challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/time-tracking-dashboard-UIQ7167Jw). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [Time tracking dashboard challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/time-tracking-dashboard-UIQ7167Jw). Frontend Mentor challenges help you improve your coding skills by building real projects. 
 
 ## Table of contents
 
@@ -35,8 +35,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [(https://www.frontendmentor.io/solutions/time-tracking-app-made-with-tailwindcss-and-javascript-mWIKoN_UAo)]
+- Live Site URL: [(https://scintillating-swan-b3293f.netlify.app/)]
 
 ## My process
 
@@ -44,7 +44,7 @@ Users should be able to:
 
 - Semantic HTML5 markup
 - CSS custom properties
-- TailwindCSS
+- tailwindcss
 - Flexbox
 - CSS Grid
 - Desktop-first workflow
@@ -53,9 +53,8 @@ Users should be able to:
 
 ### What I learned
 
-I am using CSS grid for the main layout, and then a little bit of flex for the smaller sections. The first challenge I faced was how to make the elements overlap each other like in the design, I achieved that with z-index and flex-column-reverse. then I had to make sure I got the height and width of the elements all right since I don't have access to the figma/sketch design files. 
-Next I had to figure out how to place the icons to the right side and cut off at the top and the bottom, i was able to do that by positioning them relatively and given them top and left values, and setting the overflow to hidden in the parent element. It took some trial and errors to get a uniformed look for the icons as the sizes of the svg images are different.
-Mostly the layout for this was not hard to code. Only thing I regret is not going with a mobile-first approach, I struggled to build the mobile layout from the desktop design, I think I will be going with mobile-first approach on my next project.
+I am using CSS grid for the main layout, and then a little bit of flex for the smaller sections. The first challenge I faced was how to make the elements overlap each other like in the design, I achieved that with z-index and flex-column-reverse. then I had to make sure I got the height and width of the elements all right since I don't have access to the Figma/sketch design files. Next, I had to figure out how to place the icons to the right side and cut them off at the top and the bottom, I was able to do that by positioning them relatively and giving them top and left values, and setting the overflow to hidden in the parent element. It took some trial and error to get a uniform look for the icons as the sizes of the SVG images are different.
+Mostly the layout for this was not hard to code. The only thing I regret is not going with a mobile-first approach, I struggled to build the mobile layout from the desktop design, and I think I will be going with a mobile-first approach on my next project.
 My next challenge is how to get the data for the relevant time frames from the JSON file and then parse them into the respective element in the HTML.
 
 To see how you can add code snippets, see below:
